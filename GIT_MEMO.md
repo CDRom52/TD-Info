@@ -2,13 +2,21 @@
 
 Ce fichier contient les commandes essentielles pour utiliser ce dossier sur GitHub.
 
-## Sauvegarder son travail
-À faire à la fin de chaque séance ou dès qu'une étape est terminée :
+## Synchronisation (Plusieurs PC)
 
-1. **Préparer les fichiers** : `git add .`
-2. **Créer la sauvegarde** : `git commit -m "Mon message ici"`
-3. **Envoyer sur GitHub** : `git push`
+### 1. Première fois sur un nouvel ordi (Récupérer tout le projet)
+À faire une seule fois pour installer le dossier sur le nouveau PC :
+* `git clone https://github.com/TON_PSEUDO/TON_DEPOT.git`
 
+### 2. Au début de chaque séance (Mettre à jour mon code)
+Si tu as déjà le dossier mais que tu as fait des modifs ailleurs :
+* `git pull`
+  *(Cette commande "tire" les dernières nouveautés de GitHub vers ton PC actuel).*
+
+### 3. À la fin de chaque séance (Sauvegarder)
+* `git add .`
+* `git commit -m "Fin de séance"`
+* `git push`
 ---
 
 ## Commandes de secours & Vérification
