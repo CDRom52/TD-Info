@@ -2,16 +2,22 @@
 
 Ce fichier contient les commandes essentielles pour utiliser ce dossier sur GitHub.
 
+## Astuces VS Code (Markdown)
+
+* **Voir l'aperçu du README** : `Ctrl` + `Shift` + `V`
+* **Ouvrir l'aperçu sur le côté (Split View)** : `Ctrl` + `K` puis `V` 
+  *(Pratique pour écrire à gauche et voir le résultat à droite !)*
+
 ## Synchronisation (Plusieurs PC)
 
 ### 1. Première fois sur un nouvel ordi (Récupérer tout le projet)
 À faire une seule fois pour installer le dossier sur le nouveau PC :
-* `git clone https://github.com/TON_PSEUDO/TON_DEPOT.git`
+* `git clone https://github.com/CDRom52/TD-Info.git`
 
-### 2. Au début de chaque séance (Mettre à jour mon code)
-Si tu as déjà le dossier mais que tu as fait des modifs ailleurs :
+### 2. Au début de chaque séance (Mettre à jour le code)
+Si j'ai déjà le dossier mais que j'ai fait des modifs ailleurs :
 * `git pull`
-  *(Cette commande "tire" les dernières nouveautés de GitHub vers ton PC actuel).*
+  *(Cette commande "tire" les dernières nouveautés de GitHub vers mon PC actuel).*
 
 ### 3. À la fin de chaque séance (Sauvegarder)
 * `git add .`
@@ -41,20 +47,8 @@ Si tu as déjà le dossier mais que tu as fait des modifs ailleurs :
 * `pip freeze > requirements.txt` : Sauvegarder la liste des bibliothèques pour GitHub.
 * `pip install -r requirements.txt` : Réinstaller toutes les bibliothèques d'un coup (sur un nouveau PC).
 
-### Nettoyer un .venv corrompu
-1. Supprimer le dossier `.venv` à la main.
-2. `python -m venv .venv` (Recréer)
-3. `.\.venv\Scripts\activate` (Activer sur Windows)
+### Créer un .venv
+1. `python -m venv .venv` (Créer)
+2. `.\.venv\Scripts\activate` (Activer sur Windows)
 
 ---
-
-## Erreurs Classiques
-* **"Fatal: origin already exists"** : L'adresse est déjà configurée, utilise `set-url` au lieu de `add`.
-* **"Everything up-to-date"** : Tu as oublié de faire `git add` ou `git commit` avant le `push`.
-* **"Fatal error in launcher"** : Ton `.venv` a été déplacé, il faut le supprimer et le recréer.
-
-## Astuces VS Code (Markdown)
-
-* **Voir l'aperçu du README** : `Ctrl` + `Shift` + `V`
-* **Ouvrir l'aperçu sur le côté (Split View)** : `Ctrl` + `K` puis `V` 
-  *(Pratique pour écrire à gauche et voir le résultat à droite !)*
