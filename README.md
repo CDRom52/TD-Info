@@ -13,4 +13,4 @@ Bienvenue sur mon dépôt de travaux dirigés. Ce dossier regroupe l'ensemble de
 * **Outils :** VS Code, Git
 
 ---
-*Dépôt maintenu par [Romain FAVRE-BULLE/CDRom52]*
+*Dépôt maintenu par [CDRom52]*
