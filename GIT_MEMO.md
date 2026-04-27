@@ -5,8 +5,6 @@ Ce fichier contient les commandes essentielles pour utiliser ce dossier sur GitH
 ## Astuces VS Code (Markdown)
 
 * **Voir l'aperçu du README** : `Ctrl` + `Shift` + `V`
-* **Ouvrir l'aperçu sur le côté (Split View)** : `Ctrl` + `K` puis `V` 
-  *(Pratique pour écrire à gauche et voir le résultat à droite !)*
 
 ## Synchronisation (Plusieurs PC)
 
