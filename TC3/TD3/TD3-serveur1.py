@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-TD3-serveur1.py
-
-@author: Ecole Centrale de Lyon, 2025
-"""
-
 import http.server
 import socketserver
 from urllib.parse import urlparse, parse_qs, unquote
