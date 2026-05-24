@@ -60,5 +60,7 @@ Si j'ai déjà le dossier mais que j'ai fait des modifs ailleurs :
 ### Créer un .venv
 1. `python -m venv .venv` (Créer)
 2. `.\.venv\Scripts\activate` (Activer sur Windows)
+3. Créer un fichier .gitignore
+4. Ajouter la ligne `.venv/`
 
 ---
