@@ -6,6 +6,7 @@ Bienvenue sur mon dépôt de travaux dirigés. Ce dossier regroupe l'ensemble de
 
 * **TC1/** : Tronc Commun 1 (Algorithmique)
 * **TC2/** : Tronc Commun 2 (Programmation Orientée Objet)
+* **TC3/** : Tronc Commun 3 (Programmation WEB)
 
 ## Technologies utilisées
 
