@@ -28,19 +28,10 @@ Si j'ai déjà le dossier mais que j'ai fait des modifs ailleurs :
 ## Python & Environnement (.venv)
 
 ### Gérer les bibliothèques
+* `pip install <nom_de_la_bibliotheque>` : Installer une bibliothèque sur l'environnement actuel.
 * `pip list` : Voir ce qui est installé dans mon environnement actuel.
 * `pip freeze > requirements.txt` : Sauvegarder la liste des bibliothèques pour GitHub.
 * `pip install -r requirements.txt` : Réinstaller toutes les bibliothèques d'un coup (sur un nouveau PC).
-
-### Ajouter une nouvelle bibliothèque et la synchroniser
-1. **Sur le PC actuel :** Installez la bibliothèque et mettez à jour le fichier.
-   * `pip install <nom_de_la_bibliotheque>`
-   * `pip freeze > requirements.txt`
-   *(Ensuite, faites un git add, commit, et push pour envoyer le fichier sur GitHub)*
-
-2. **Sur l'autre PC :** Récupérez la mise à jour et installez-la.
-   * `git pull`
-   * `pip install -r requirements.txt`
 
 ### Créer un .venv
 1. `python -m venv .venv` (Créer)
