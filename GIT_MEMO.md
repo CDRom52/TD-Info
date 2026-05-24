@@ -25,21 +25,6 @@ Si j'ai déjà le dossier mais que j'ai fait des modifs ailleurs :
 * `git push`
 ---
 
-## Commandes de secours & Vérification
-
-### Voir l'état du dépôt
-* `git status` : Pour savoir quels fichiers ont été modifiés et s'ils sont prêts à être commités.
-* `git log --oneline` : Pour voir l'historique simplifié de tes sauvegardes.
-
-### Gérer l'adresse distante (GitHub)
-* `git remote -v` : Vérifier l'adresse de mon dépôt GitHub.
-* `git remote set-url origin URL_ICI` : Changer l'adresse si elle est fausse.
-
-### Gérer la branche
-* `git branch -M main` : Renommer la branche actuelle en "main".
-
----
-
 ## Python & Environnement (.venv)
 
 ### Gérer les bibliothèques
